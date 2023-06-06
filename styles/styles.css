@@ -1,0 +1,166 @@
+/* inicio barra menu */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 9em;
+    height: 9em;
+    padding: 1em 1em;
+}
+
+header{
+    background-color: #06334b;
+    width: 100%;
+    height: 7em;
+    clear: both;
+    content: '';
+    display: table;
+}    
+header div{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 1em 3em;
+    padding: 2em;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: #a9b6c3;
+    font-weight: bold;
+}
+/* fin barra menu */
+
+/* inicio pagina preincipal */
+.inicio{
+    background-image: url(../img/inicio.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 25em;
+}
+.inicio h1{
+    font-family: 'Poppins', sans-serif;
+    color: #112731;
+    text-align: center;
+}
+.inicio p{
+    padding: 2em 2em;
+    text-align: center;
+}
+/* fin pagina principal */
+
+/* inicio alquiler */
+.depas{
+    background-color: #dcedff;
+}
+.imagen{
+    width: 20em;
+    height: 20em;
+}
+.ubi{
+    width: 100%;
+    height: 20em;
+}
+.depas h2{
+    color: #a9b6c3;
+    text-align: center;
+    background-color: #06334b;
+    padding: 2em 2em;
+    margin: 1em 1em;
+}
+
+.depas p{
+    color: #06334b;
+}
+.depas h3{
+    text-align: center;
+    color: #06334b;
+}
+
+/* fin alquiler */
+
+/* inicio preguntas y comentarios */
+
+.preg h1{
+    color: #a9b6c3;
+    text-align: center;
+    padding: 2em 2em;
+    background-color: #06334b;
+
+}
+.preguntas h2{
+    color: #06334b;
+    font-weight: bold;
+    padding: 2em 2em;
+}
+.preguntas p{
+    color: #112731;
+    padding: 0 4em;
+
+}
+.contacto h3{
+    text-align: center;
+    color: #06334b;
+    padding: 1em 0;
+}
+.contacto p{
+    text-align: center;
+    color: #112731;
+    padding: 1em 1em;
+}
+.contacto form{
+    padding: 0 10em ;
+    margin: 2em 6em;
+}
+/* fin preguntas y comentarios */
+.contacto p{
+    padding: 0;
+}
+/* inicio footer */
+
+footer{
+    background-color: #06334b;
+    width: 100%;
+    height: 10em;
+    clear: both;
+    content: '';
+    display: flex;
+    justify-content: center;
+}
+.datos{
+    color: #a9b6c3;
+    list-style: none;
+    margin: 2em 2em;
+    display: inline-block;
+}
+
+.redes li{
+    list-style: none;
+    font-weight: bold;
+    padding: 1em 1em;
+    color: #a9b6c3;
+    margin-top: 2em;
+}
+
+.pie ul{
+    display: flex;
+}
+.redes p{
+    font-weight: bold;
+    color: #a9b6c3;
+    padding-top: 3em;
+}
+.redes a{
+    padding: 1em 1em;
+}
+
+/* fin footer */
