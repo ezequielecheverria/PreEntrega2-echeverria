@@ -69,7 +69,7 @@ span img{
 
 /* inicio pagina preincipal */
 .inicio{
-    background-image: url(../img/inicio.png);
+    background-image: url("../img/inicio.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
